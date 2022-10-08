@@ -1,0 +1,72 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Hello",
+  "steps": [
+    {
+      "title": "Introduction",
+      "description": "Hello traveler.\r\nThis is a Code Tour representation of the [Create a .NET console application using Visual Studio Code Tutorial](https://learn.microsoft.com/en-us/dotnet/core/tutorials/with-visual-studio-code?pivots=dotnet-6-0).\r\n"
+    },
+    {
+      "title": "Prerequisites",
+      "description": "# Prerequisites\r\n* Visual Studio Code with the C# extension installed. \r\n  For information about how to install extensions on Visual Studio Code, see VS Code Extension Marketplace.\r\n* The .NET 6 SDK."
+    },
+    {
+      "title": "Step 1 - New Dot Net project",
+      "description": ">> dotnet new console --framework net6.0 --force"
+    },
+    {
+      "file": "Program.cs",
+      "description": "# Replace the selected code with the code below:\r\n\r\n```C#\r\nnamespace HelloWorld\r\n{\r\n    class Program\r\n    {\r\n        static void Main(string[] args)\r\n        {\r\n            Console.WriteLine(\"Hello World!\");\r\n        }\r\n    }\r\n}\r\n\r\n```",
+      "line": 13,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 1
+        },
+        "end": {
+          "line": 3,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "Program.cs",
+      "line": 3,
+      "title": "Build and run",
+      "description": "# Build and Run\r\n\r\n>> dotnet build\r\n\r\n# \r\n\r\n>> dotnet run\r\n\r\n#"
+    },
+    {
+      "file": "Program.cs",
+      "title": "Enhance the app",
+      "description": "# Let's enhance the app:\r\n\r\n## Insert the code below.\r\n\r\n### Heading 3 just for fun\r\n\r\n```C#\r\nConsole.WriteLine(\"What is your name?\");\r\nvar name = Console.ReadLine();\r\nvar currentDate = DateTime.Now;\r\nConsole.WriteLine($\"{Environment.NewLine}Hello, {name}, on {currentDate:d} at {currentDate:t}!\");\r\nConsole.Write($\"{Environment.NewLine}Press any key to exit...\");\r\nConsole.ReadKey(true);\r\n```",
+      "line": 27,
+      "selection": {
+        "start": {
+          "line": 7,
+          "character": 1
+        },
+        "end": {
+          "line": 8,
+          "character": 1
+        }
+      }
+    },
+    {
+      "file": "Program.cs",
+      "line": 3,
+      "title": "Build ...",
+      "description": "# Build again\r\n\r\n>> dotnet build\r\n\r\n#"
+    },
+    {
+      "file": "Program.cs",
+      "line": 3,
+      "title": "... and run again",
+      "description": "# ... and Run\r\n\r\n>> dotnet run"
+    },
+    {
+      "title": "Flex",
+      "description": "# This is just a flex\r\n![Flex](./flex.png)\r\n\r\n\r\nLinked logo: [![alt text](/wp-smaller.png)]\r\n(http://wordpress.com/ \"Title\")"
+    }
+  ],
+  "isPrimary": true
+}
