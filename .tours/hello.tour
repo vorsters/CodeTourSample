@@ -65,7 +65,11 @@
     },
     {
       "title": "Flex",
-      "description": "# This is just a flex\r\n![Flex](./flex.png)\r\n\r\n\r\nLinked logo: [![alt text](/wp-smaller.png)]\r\n(http://wordpress.com/ \"Title\")"
+      "description": "# This is just a flex\r\n![Flex](https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/240/apple/325/flexed-biceps_1f4aa.png)"
+    },
+    {
+      "title": "ThinkTanks",
+      "description": "# Think Tanks\r\n\r\n#### Please discuss CodeTours in your Think Tanks.\r\n#\r\n#### I recommend it as a tool to onboard newcomers to your codebase.\r\n\r\n![Opinion](./images/opinion.png)\r\n"
     }
   ],
   "isPrimary": true
