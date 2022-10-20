@@ -55,7 +55,7 @@
       "file": "Program.cs",
       "line": 3,
       "title": "Build ...",
-      "description": "# Build again\r\n\r\n>> dotnet build\r\n\r\n#"
+      "description": "# Build again\r\n\r\nRemember to save the file before building.\r\n\r\n>> dotnet build\r\n\r\n#"
     },
     {
       "file": "Program.cs",
@@ -70,7 +70,7 @@
     {
       "title": "ThinkTanks",
       "description": "# Think Tanks\r\n\r\n#### Please discuss CodeTours in your Think Tanks.\r\n#\r\n#### I recommend it as a tool to onboard newcomers to your codebase.\r\n\r\n![Opinion](./images/opinion.png)\r\n"
-    }    
+    }
   ],
   "isPrimary": true
 }
